@@ -43,7 +43,7 @@ const Navbar = () => {
     <header style={headerStyle}>
       <nav style={navStyle}>
         <div className="mr-8">
-          <img src="/components/navbar/logo.png" alt="logo" className="h-8 w-8" />
+          <img src="../src/components/navbar/logo.png" alt="logo" className="h-8 w-8" />
         </div>
         <ul style={luStyle}>
           <li><a href="/" style={{ ...navLinkStyle, ...(currentPath === '/' && activeLinkStyle) }}>Inicio</a></li>

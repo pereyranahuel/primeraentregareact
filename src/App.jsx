@@ -1,19 +1,20 @@
+import Navbar from './components/navbar/Navbar'
 
 
-
-
-import Container from '/components/conteiners/Conteiners';
-import Navbar from '../components/navbar/Navbar';
 import './App.css';
+import ItemListContainer from './components/itemList/ItemListContainer';
 
-function App(){
-
+function App() {
+  const mensaje = 'Bienvenido a mi tienda';
   return (
     <>
-    <Navbar/>
-    <Container/>
+      <Navbar />
+      <div>
+      
+        <ItemListContainer mensaje={mensaje} />
+      </div>
     </>
   )
 }
 
-export default App
+export default App;

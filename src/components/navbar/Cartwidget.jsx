@@ -16,7 +16,7 @@ const CartWidget = () => {
     <div>
       {/* Contenido del componente CartWidget */}
       <img style={imgStyle}
-        src="./components/navbar/carrito.png"
+        src="../src/components/navbar/carrito.png"
         alt="Carrito de compras"
         onClick={handleCartClick}
       />
